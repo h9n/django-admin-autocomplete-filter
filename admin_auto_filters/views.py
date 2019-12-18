@@ -1,7 +1,5 @@
 from django.shortcuts import render
 from django.views.generic import CreateView
-from testing.models import *
-from testing.forms import *
 from django.views import View
 from django.http import JsonResponse
 import json
