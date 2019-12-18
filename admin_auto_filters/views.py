@@ -1,4 +1,4 @@
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render
 from django.views.generic import CreateView
 from testing.models import *
 from testing.forms import *
