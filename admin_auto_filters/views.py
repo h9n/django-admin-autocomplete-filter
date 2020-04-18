@@ -1,10 +1,4 @@
-from django.shortcuts import render
-from django.views.generic import CreateView
-from django.views import View
 from django.http import JsonResponse
-import json
-import pprint
-from django.views.generic.list import BaseListView
 from django.contrib.admin.views.autocomplete import AutocompleteJsonView as Base
 
 
